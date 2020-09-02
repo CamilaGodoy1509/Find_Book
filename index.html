@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <title>Projeto da Semana - Find Book</title>
+</head>
+
+<body>
+    <header>
+        <h1>Find Books</h1>
+    </header>
+
+    <nav>
+        <a href="index.html"><img src="https://image.flaticon.com/icons/svg/3232/3232369.svg" alt="">Page Home</a>
+
+    </nav>
+
+    <main id="topo">
+        <center>
+            <label for="titulo">Pesquisar por Título do Livro</label>
+            <input type="text" id="titulo">
+            <button onclick="puxarTitulo()" id="btn">Pesquisar</button><br>
+
+            <label for="titulo">Pesquisar por Nome do Autor</label>
+            <input type="text" id="autor">
+            <button onclick="puxarAutor()" id="btn">Pesquisar</button>
+        </center>
+        <div id="books"></div>
+    </main>
+
+
+    <footer>Esse site não faz utilização de cookies</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
